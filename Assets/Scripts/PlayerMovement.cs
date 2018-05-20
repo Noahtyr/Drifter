@@ -4,8 +4,8 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour {
 
     public Rigidbody rb;
-    public float forwardForce = 0f; // Our force variable, so we can edit in inspector
-    public float sidewaysForce = 0f;
+    public float forwardForce = 500f; // Our force variable, so we can edit in inspector
+    public float sidewaysForce = 500f;
 
 	
 	// FixedUpdate because we mess with physics
