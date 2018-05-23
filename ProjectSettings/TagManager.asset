@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Obstacle
   - AudioManager
+  - Pick Up
   layers:
   - Default
   - TransparentFX

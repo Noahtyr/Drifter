@@ -9,6 +9,7 @@ public class AudioManager : MonoBehaviour {
 
     [Header("Audio Clips")]
     public AudioClip gameOver;
+    public AudioClip pickUp;
 
 
     // Use this for initialization
@@ -20,6 +21,11 @@ public class AudioManager : MonoBehaviour {
 	void Update () {
 		
 	}
+
+    public void PlayPickUpSound()
+    {
+        audioSrc.PlayOneShot(pickUp);
+    }
 }
 
 
