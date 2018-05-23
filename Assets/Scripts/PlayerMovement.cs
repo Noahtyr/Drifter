@@ -29,7 +29,7 @@ public class PlayerMovement : MonoBehaviour {
         {
             other.gameObject.SetActive(false);
             GameObject.FindGameObjectWithTag("AudioManager").SendMessage("PlayPickUpSound");
-            forwardForce = 6000f;
+            forwardForce = 9000f;
         }
     }
 
