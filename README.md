@@ -1,2 +1,4 @@
-# Drifter
-A Game im Making!
+# Drifter, Drift your way to victory!
+
+<h2> Hello! </h2>
+
