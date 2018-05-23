@@ -23,5 +23,16 @@ public class PlayerMovement : MonoBehaviour {
         }
 
     }
+    public void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("Pick Up"))
+        {
+            other.gameObject.SetActive(false);
+            GameObject.FindGameObjectWithTag("AudioManager").SendMessage("PlayPickUpSound");
+            forwardForce = 6000f;
+        }
+    }
+
+
 }
 

@@ -23,7 +23,7 @@ public class PlayerCollision : MonoBehaviour {
         }
             
     }
-    private void OnTriggerEnter(Collider other)
+    public void OnTriggerEnter(Collider other)
     {
         if(other.gameObject.CompareTag("Pick Up"))
         {
