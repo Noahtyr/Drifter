@@ -26,6 +26,10 @@ public class AudioManager : MonoBehaviour {
     {
         audioSrc.PlayOneShot(pickUp);
     }
+    public void PlayGameOverSound()
+    {
+        audioSrc.PlayOneShot(gameOver);
+    }
 }
 
 

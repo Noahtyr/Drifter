@@ -1675,7 +1675,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioSrc: {fileID: 1921109661}
-  gameOver: {fileID: 0}
+  gameOver: {fileID: 8300000, guid: bc32fc2cc4031364b9bc498826be1eba, type: 3}
   pickUp: {fileID: 8300000, guid: ef9e4ee910d83114a81c910bc053df9c, type: 3}
 --- !u!4 &598404485
 Transform:

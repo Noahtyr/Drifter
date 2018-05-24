@@ -19,6 +19,7 @@ public class PlayerCollision : MonoBehaviour {
         {
             movement.enabled = false;
             musicSource.Stop();
+            GameObject.FindGameObjectWithTag("AudioManager").SendMessage("PlayGameOverSound");
 
         }
             
