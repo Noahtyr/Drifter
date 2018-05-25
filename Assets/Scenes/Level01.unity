@@ -1723,7 +1723,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioSrc: {fileID: 1921109661}
   gameOver: {fileID: 8300000, guid: bc32fc2cc4031364b9bc498826be1eba, type: 3}
-  pickUp: {fileID: 8300000, guid: ef9e4ee910d83114a81c910bc053df9c, type: 3}
+  pickUp: {fileID: 8300000, guid: b8d588d2e328c414da791656a2ab8e51, type: 3}
 --- !u!4 &598404485
 Transform:
   m_ObjectHideFlags: 0
@@ -4306,7 +4306,7 @@ GameObject:
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &1550346967
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4653,7 +4653,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1645802756
 RectTransform:
   m_ObjectHideFlags: 0
