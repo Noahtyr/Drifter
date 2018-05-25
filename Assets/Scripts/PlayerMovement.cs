@@ -22,7 +22,15 @@ public class PlayerMovement : MonoBehaviour {
             rb.AddForce(-sidewaysForce * Time.deltaTime, 0, 0, ForceMode.VelocityChange);
         }
 
+        if (rb.position.y < -1f)
+        {
+            FindObjectOfType<GameManager>().GameOver();
+        }
     }
+
+
+
+
     public void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("Pick Up"))
