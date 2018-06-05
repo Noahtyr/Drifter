@@ -19,6 +19,7 @@ public class GameManager : MonoBehaviour {
             gameEnded = true;
             Debug.Log("GAME OVER");
             Invoke("RestartGame", restartDelay);
+            GameObject.FindGameObjectWithTag("AudioManager").SendMessage("PlayGameOverSound");
         }
         
     }
