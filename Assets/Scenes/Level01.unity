@@ -1127,7 +1127,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c2bc6e3cba161af4b8d1a667caf38416, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.828
+      value: 0.7
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c2bc6e3cba161af4b8d1a667caf38416, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1157,6 +1157,10 @@ Prefab:
       propertyPath: m_Name
       value: PlayerTest
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: c2bc6e3cba161af4b8d1a667caf38416, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c3cd6a0e32c962b43a37302a964c1252, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c2bc6e3cba161af4b8d1a667caf38416, type: 3}
   m_IsPrefabParent: 0
