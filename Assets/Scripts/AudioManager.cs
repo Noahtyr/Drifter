@@ -1,37 +1,49 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using UnityEngine.Audio;
+using System;
 using UnityEngine;
 
 public class AudioManager : MonoBehaviour {
 
-    public AudioSource audioSrc;
+    public Sound[] sounds;
 
 
-    [Header("Audio Clips")]
-    public AudioClip gameOver;
-    public AudioClip pickUp;
+    void Awake () {
 
+        foreach(Sound s in sounds)
+        {
+            s.source = gameObject.AddComponent<AudioSource>();
 
-    // Use this for initialization
-    void Start () {
-        audioSrc.GetComponent<AudioSource>();
+            s.source.clip = s.clip;
+ 
+            s.source.volume = s.volume;
+            s.source.pitch = s.pitch;
+        }
+       
 	}
 	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+    public void Play(string name)
+    {
+        Sound s = Array.Find(sounds, sound => sound.name == name);
+        s.source.Play();
+    }
 
-    public void PlayPickUpSound()
+    void Start()
     {
-        audioSrc.PlayOneShot(pickUp);
+        Play("GameMusic");
     }
-    public void PlayGameOverSound()
-    {
-        audioSrc.PlayOneShot(gameOver);
-    }
+
+
 }
 
 
 // GameObject.FindGameObjectWithTag("AudioManager").SendMessage("PlayBossSpawnSound"); USE THIS FOR SOUND REFERENCE IN
 // OTHER SCRIPTS
+
+    //  public void PlayPickUpSound()
+  //  {
+       // audioSrc.PlayOneShot(pickUp);
+  //  }
+ //   public void PlayGameOverSound()
+ //   {
+      //  audioSrc.PlayOneShot(gameOver);
+ //   }

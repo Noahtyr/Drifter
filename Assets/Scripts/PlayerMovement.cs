@@ -36,7 +36,8 @@ public class PlayerMovement : MonoBehaviour {
         if (other.gameObject.CompareTag("Pick Up"))
         {
             other.gameObject.SetActive(false);
-            GameObject.FindGameObjectWithTag("AudioManager").SendMessage("PlayPickUpSound");
+            FindObjectOfType<AudioManager>().Play("SpeedBoost");
+           // GameObject.FindGameObjectWithTag("AudioManager").SendMessage("PlayPickUpSound");
             forwardForce = 9000f;
         }
     }
