@@ -9,3 +9,7 @@ This is a small indie game that I am working on. Currently, the game features so
 Currently the game features unity supplied models, with simple cubes being manipulated into look like other stuff, but later, new models will be applied, which is supplied by myself and different commercial free assets.
 
 [![Drifter_picture.png](https://s31.postimg.cc/bhl3i8j3f/Drifter_picture.png)](https://postimg.cc/image/5gnel5wh3/)
+
+https://prnt.sc/jtyiku
+
+
