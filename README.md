@@ -1,6 +1,8 @@
 # Drifter, Drift your way to victory!
+![mainmenu2](https://user-images.githubusercontent.com/23164831/41281961-0dbc6b80-6e33-11e8-911d-d2943655310e.png)
 
-<h2> Hello! </h2>
+
+<h2> Hello & Welcome! </h2>
 
 This is a small indie game that I am working on. Currently, the game features some very simple movement on a long ( Not endless) ground, the purpose of the game is to dogde ALL obstacles in your way, to make sure you reach the end.... but where is the end?
 
