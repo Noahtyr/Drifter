@@ -10,6 +10,5 @@ Currently the game features unity supplied models, with simple cubes being manip
 
 [![Drifter_picture.png](https://s31.postimg.cc/bhl3i8j3f/Drifter_picture.png)](https://postimg.cc/image/5gnel5wh3/)
 
-[![DrifterPicture1.png](https://prnt.sc/jtyiku)]
 
 
