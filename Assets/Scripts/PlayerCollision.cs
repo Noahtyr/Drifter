@@ -17,7 +17,8 @@ public class PlayerCollision : MonoBehaviour {
         if(collisionInfo.collider.tag == "Obstacle")
         {
             movement.enabled = false;
-            
+            FindObjectOfType<AudioManager>().Play("PlayerDeath");
+            FindObjectOfType<AudioManager>().Stop("GameMusic");
             FindObjectOfType<GameManager>().GameOver();
 
         }

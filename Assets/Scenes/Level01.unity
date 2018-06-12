@@ -1759,7 +1759,7 @@ MonoBehaviour:
     pitch: 1
     source: {fileID: 0}
   - name: PlayerDeath
-    clip: {fileID: 8300000, guid: 3c682bfd287a8774282870164e0b322f, type: 3}
+    clip: {fileID: 8300000, guid: bc32fc2cc4031364b9bc498826be1eba, type: 3}
     volume: 1
     pitch: 1
     source: {fileID: 0}
