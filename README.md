@@ -9,6 +9,9 @@ This is a small indie game that I am working on. Currently, the game features so
 <h2> World is against you, but you can get help! </h2>
 While you are drifting your way, boosts will appear on the road, which if you pick up, can get a massive increase in speed! more power-ups will be implemented, like damage immunity.
 
+![boosts](https://user-images.githubusercontent.com/23164831/41281612-18de185c-6e32-11e8-9b2e-ea650c7e74d0.png)
+
+
 
 <h2> Models  </h2>
 Currently the game features unity supplied models, with simple cubes being manipulated into look like other stuff, but later, new models will be applied, which is supplied by myself and different commercial free assets.
