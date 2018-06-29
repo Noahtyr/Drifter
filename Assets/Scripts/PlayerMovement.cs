@@ -39,7 +39,7 @@ public class PlayerMovement : MonoBehaviour {
             FindObjectOfType<AudioManager>().Play("SpeedBoost");
            // GameObject.FindGameObjectWithTag("AudioManager").SendMessage("PlayPickUpSound");
             forwardForce = 9000f;
-            Invoke("ResetSpeed", 3);
+            Invoke("ResetSpeed", 5);
 
         }
 
