@@ -4,11 +4,53 @@ ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
     100000: //RootNode
+    100002: Cube
+    100004: Torus
+    100006: RearEngine
+    100008: FrontEngine
+    100010: BoosterEngine
+    100012: BoosterEngine_001
+    100014: BoosterEngine_002
+    100016: CockPit
     400000: //RootNode
+    400002: Cube
+    400004: Torus
+    400006: RearEngine
+    400008: FrontEngine
+    400010: BoosterEngine
+    400012: BoosterEngine_001
+    400014: BoosterEngine_002
+    400016: CockPit
     2100000: Material
+    2100002: unnamed
+    2100004: Material_001
     2300000: //RootNode
+    2300002: Cube
+    2300004: Torus
+    2300006: RearEngine
+    2300008: FrontEngine
+    2300010: BoosterEngine
+    2300012: BoosterEngine_001
+    2300014: BoosterEngine_002
+    2300016: CockPit
     3300000: //RootNode
+    3300002: Cube
+    3300004: Torus
+    3300006: RearEngine
+    3300008: FrontEngine
+    3300010: BoosterEngine
+    3300012: BoosterEngine_001
+    3300014: BoosterEngine_002
+    3300016: CockPit
     4300000: Cube
+    4300002: Torus
+    4300004: MainHull
+    4300006: RearEngine
+    4300008: FrontEngine
+    4300010: BoosterEngine_002
+    4300012: BoosterEngine_001
+    4300014: BoosterEngine
+    4300016: CockPit
     7400000: Default Take
     9500000: //RootNode
   externalObjects: {}
