@@ -563,7 +563,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 7226367607310ce479375117978b2e4c, type: 3}
+  m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
   m_Volume: 0.315
   m_Pitch: 1
@@ -679,8 +679,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 54012945077457688}
-  forwardForce: 6000
-  sidewaysForce: 115
+  forwardForce: 5000
+  sidewaysForce: 100
 --- !u!114 &114555806237816526
 MonoBehaviour:
   m_ObjectHideFlags: 1
