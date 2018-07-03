@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 19e2485c6f92d6944ad20466ac77b04c, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -987,7 +987,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sounds:
   - name: GameMusic
-    clip: {fileID: 8300000, guid: 3c682bfd287a8774282870164e0b322f, type: 3}
+    clip: {fileID: 8300000, guid: ab98dfa2eb048ea45956a6f6e3a0083f, type: 3}
     volume: 1
     pitch: 1
     source: {fileID: 0}

@@ -6,7 +6,7 @@ public class BoostRotator : MonoBehaviour {
 
 	
 	void Update () {
-        transform.Rotate(new Vector3(15, 30, 45) * Time.deltaTime);
+        transform.Rotate(new Vector3(30, 45, 60) * Time.deltaTime);
 
     }
 }
