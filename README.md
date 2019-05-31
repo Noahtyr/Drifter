@@ -6,7 +6,14 @@
 
 This is a small indie game that I am working on. Currently, the game features some very simple movement on a long ( Not endless) ground, the purpose of the game is to dogde ALL obstacles in your way, to make sure you reach the end.... but where is the end?
 
-<h1> Fight through hell and never look back! </h1>
+
+# Eternity awaits, where does it end?
+Power through the endless void to reach the end of the path, but where does it end? does it ever end?
+
+![level1](https://user-images.githubusercontent.com/23164831/58735845-13e0af00-83fc-11e9-8440-6d983514a9e1.png)
+
+# Fight through hell and never look back!
+The more you progress, the more dangerous is becomes, fight through it to prove your worth!
 
 ![level5](https://user-images.githubusercontent.com/23164831/58735655-5f468d80-83fb-11e9-9ee8-87db45a5fd45.png)
 
